@@ -37,6 +37,6 @@ async def data_endpoint(item: Data):
 
     biospy= model.predict(df)
 
-    return {"Biospy Results": int(biospy)}
+    return {"Biospy Results 0 if negative for cervical cancer and 1 if positive ": int(biospy)}
 
 
