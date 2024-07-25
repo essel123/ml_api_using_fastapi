@@ -25,7 +25,7 @@ class Data(BaseModel):
 
 model = joblib.load('model.pkl')
 
-print(model.predict([[71,3,17,6,1,34,3.4,0,0,1,7,0,0,3]])[0])
+# print(model.predict([[71,3,17,6,1,34,3.4,0,0,1,7,0,0,3]])[0])
 
 app = FastAPI()
 
