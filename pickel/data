@@ -1,0 +1,31 @@
+"age": 51,
+"number_of_sex_Partners": 3,
+"age_of_first_sexual_intercourse": 17,
+"Num_of_pregnancies": 6,
+"Smokes": 1,
+"Smokes_years": 34,
+"Smokes_packs_per_year": 3.4,
+"HormonalContraceptives": 0,
+"Hormonal_Contraceptives_per_years": 0,
+"IUD":1,
+"IUD_years":7,
+"STDs": 0,
+"Number_of_diagnosis":3,
+"Time_since_last_diagnosis": 3
+
+
+
+Age: int
+    Number_of_sexual_partners: float
+    First_sexual_intercourse: float
+    Num_of_pregnancies: float
+    Smokes: float
+    Smokes_years: float
+    Smokes_packs_per_year: float
+    Hormonal_Contraceptives: float
+    Hormonal_Contraceptives_per_years: float
+    IUD: float
+    IUD_years: float
+    STDs: float
+    Number_of_diagnosis: float
+    Time_since_last_diagnosis: float
